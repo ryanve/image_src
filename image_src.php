@@ -3,7 +3,7 @@
 Plugin Name: image_src
 Plugin URI: http://github.com/ryanve/image_src
 Description: Add the "image_src" microformat.
-Version: 0.5.0
+Version: 1.0.0
 Author: Ryan Van Etten
 Author URI: http://ryanve.com
 License: MIT
