@@ -17,5 +17,5 @@ Social media sites often use the **image_src** microformat for displaying link t
 
 Requires PHP 5.3+
 
-1. Upload `image_src.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload to the `/wp-content/plugins/` directory
+1. Activate through the Plugins menu in WordPress
