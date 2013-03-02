@@ -3,14 +3,14 @@
 Plugin Name: image_src
 Plugin URI: http://github.com/ryanve/image_src
 Description: Add the "image_src" microformat.
-Version: 1.0.0
+Version: 1.0.1
 Author: Ryan Van Etten
 Author URI: http://ryanve.com
 License: MIT
 */
 
 add_action('wp_head', function () {
-    $src;
+    $src = null;
     is_singular() # default usage applies only to singular contexts
         and ( $id = get_post_thumbnail_id() )
         and ( $src = wp_get_attachment_image_src( $id, 'thumbnail' ) )
